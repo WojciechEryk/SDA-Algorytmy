@@ -8,7 +8,7 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 public class BanknotyIMonety extends AbstractAlgorithm{
     @Override
     public String getName() {
-        return null;
+        return " Banknoty i monety";
     }
 
     @Override

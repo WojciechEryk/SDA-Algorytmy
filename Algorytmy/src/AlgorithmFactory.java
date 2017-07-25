@@ -22,6 +22,16 @@ public class AlgorithmFactory {
                 return new RokPrzestepny();
             case "flamaster":
                 return new Flamaster();
+            case "silnia":
+                return new Silnia();
+            case "rekurencjasuma":
+                return new RekurencjaSuma();
+            case "silniadziesiatkijednosci":
+                return new SilniaDziesiatkiJednosci();
+            case "fibonacci":
+                return new Fibonacci();
+            case "szyfrcezara":
+                return new SzyfrCezara();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

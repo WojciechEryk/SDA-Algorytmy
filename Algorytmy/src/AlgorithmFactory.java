@@ -32,6 +32,12 @@ public class AlgorithmFactory {
                 return new Fibonacci();
             case "szyfrcezara":
                 return new SzyfrCezara();
+            case "sortowaniebabelkowe":
+                return new SortowanieBabelkowe();
+            case "palindromenumbers":
+                return new PalindromeNumbers();
+            case "sortowaniewzgledempunktu":
+                return new SortowanieWzgledemPunktu();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

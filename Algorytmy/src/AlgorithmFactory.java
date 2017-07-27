@@ -1,8 +1,6 @@
 import Alghoritms.*;
 
-/**
- * Created by RENT on 2017-07-21.
- */
+
 public class AlgorithmFactory {
 
 
@@ -38,6 +36,10 @@ public class AlgorithmFactory {
                 return new PalindromeNumbers();
             case "sortowaniewzgledempunktu":
                 return new SortowanieWzgledemPunktu();
+            case "prostetablice":
+                return new ProsteTablice();
+            case "statki":
+                return new Statki();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

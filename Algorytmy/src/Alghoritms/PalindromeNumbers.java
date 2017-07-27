@@ -1,28 +1,34 @@
-package Alghoritms;
-
-
-public class PalindromeNumbers extends AbstractAlgorithm {
-    @Override
-    public String getName() {
-        return " Palindrome Numbers";
-    }
-
-    @Override
-    public void runAlgorithm(String[] input) {
-        int kk = 0;
-        for (int i = 1; i < input.length; i++) {
-            char[] table = input[i].toCharArray();
-            if (table[i] == table[table.length]) {
-                kk = 1;
-            } else {
-                kk = 0;
-            }
-            if(kk==1){
-                System.out.println("Palindrome");
-            }else{
-                System.out.println("Not Palindrome");
-            }
-        }
-
-    }
-}
+//package Alghoritms;
+//
+//
+//import com.sun.org.apache.xpath.internal.SourceTree;
+//
+//public class PalindromeNumbers extends AbstractAlgorithm {
+//    @Override
+//    public String getName() {
+//        return " Palindrome Numbers";
+//    }
+//
+//    @Override
+//    public void runAlgorithm(String[] input) {
+//
+//        StringBuilder reverseString = new StringBuilder().;
+//        reverseString.append(input[1]).reverse().toString();
+//        String element = input[1];
+//
+//        System.out.println(input[1]);
+//        System.out.println(reverseString);
+//        System.out.println("---------------------------------");
+//        System.out.println();
+//
+//        if(element.equals(reverseString.toString())){
+//            System.out.println("TO PALINDROM");
+//        }else{
+//            System.out.println("TO NIE JEST PALINDROME");
+//            int suma = 0;
+//            String reverse2 = reverseString.toString();
+//            suma = Integer.parseInt(element)+Integer.parseInt(reverse2);
+//
+//        }
+//    }
+//}

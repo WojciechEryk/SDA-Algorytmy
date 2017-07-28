@@ -44,6 +44,8 @@ public class AlgorithmFactory {
                 return new Warcaby();
             case "rekurencjadzielnik":
                 return new RekurencjaDzielnik();
+            case "tablicedominata":
+                return new TabliceDominata();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

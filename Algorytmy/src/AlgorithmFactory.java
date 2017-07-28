@@ -40,6 +40,8 @@ public class AlgorithmFactory {
                 return new ProsteTablice();
             case "statki":
                 return new Statki();
+            case "warcaby":
+                return new Warcaby();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

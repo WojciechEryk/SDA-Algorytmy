@@ -42,6 +42,8 @@ public class AlgorithmFactory {
                 return new Statki();
             case "warcaby":
                 return new Warcaby();
+            case "rekurencjadzielnik":
+                return new RekurencjaDzielnik();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

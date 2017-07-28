@@ -33,7 +33,7 @@ public class AlgorithmFactory {
             case "sortowaniebabelkowe":
                 return new SortowanieBabelkowe();
             case "palindromenumbers":
-                return new PalindromeNumbers();
+//                return new PalindromeNumbers();
             case "sortowaniewzgledempunktu":
                 return new SortowanieWzgledemPunktu();
             case "prostetablice":

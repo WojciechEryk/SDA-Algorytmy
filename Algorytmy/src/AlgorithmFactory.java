@@ -46,6 +46,16 @@ public class AlgorithmFactory {
                 return new RekurencjaDzielnik();
             case "tablicedominata":
                 return new TabliceDominata();
+            case "wyznaczaniedatywielkanocy":
+                return new WyznaczenieDatyWielkanocy();
+            case "spacjecamelcase":
+                return new SpacjeCamelCase();
+            case "mrandom":
+                return new mRandom();
+            case "maxminrandom":
+                return new MaxMinTablica();
+            case "lider":
+                return new Lider();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

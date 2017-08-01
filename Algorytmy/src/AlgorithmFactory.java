@@ -18,8 +18,8 @@ public class AlgorithmFactory {
                 return new BanknotyIMonety();
             case "rokprzestepny":
                 return new RokPrzestepny();
-            case "flamaster":
-                return new Flamaster();
+//            case "flamaster":
+//                return new Flamaster();
             case "silnia":
                 return new Silnia();
             case "rekurencjasuma":
@@ -44,8 +44,8 @@ public class AlgorithmFactory {
                 return new Warcaby();
             case "rekurencjadzielnik":
                 return new RekurencjaDzielnik();
-            case "tablicedominata":
-                return new TabliceDominata();
+//            case "tablicedominata":
+//                return new TabliceDominata();
             case "wyznaczaniedatywielkanocy":
                 return new WyznaczenieDatyWielkanocy();
             case "spacjecamelcase":
@@ -54,8 +54,8 @@ public class AlgorithmFactory {
                 return new mRandom();
             case "maxminrandom":
                 return new MaxMinTablica();
-            case "lider":
-                return new Lider();
+//            case "lider":
+//                return new Lider();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

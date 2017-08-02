@@ -56,6 +56,14 @@ public class AlgorithmFactory {
                 return new MaxMinTablica();
 //            case "lider":
 //                return new Lider();
+            case "testowanielisty":
+                return new TestowanieListy();
+            case "zadankotworzenielisty":
+                return new ZadankoTworzenieListy();
+            case "drzewokompletne":
+                return new DrzewoKompletne();
+            case "kopiec":
+                return new Kopiec();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

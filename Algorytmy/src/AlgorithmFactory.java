@@ -62,8 +62,10 @@ public class AlgorithmFactory {
                 return new ZadankoTworzenieListy();
             case "drzewokompletne":
                 return new DrzewoKompletne();
-            case "kopiec":
-                return new Kopiec();
+            case "testujemykopca":
+                return new TestujemyKopiec();
+            case "binarnyiinne":
+                return new BinarnyIIinne();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

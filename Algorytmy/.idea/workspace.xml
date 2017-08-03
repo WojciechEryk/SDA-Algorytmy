@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b85a235-850b-4ce6-9cc1-ef9715998693" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Alghoritms/BinarnyIIinne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Alghoritms/TestujemyKopiec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Alghoritms/OdwrotnaNotacjaPolska.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Alghoritms/Kopiec.java" afterPath="$PROJECT_DIR$/src/Alghoritms/Kopiec.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/AlgorithmFactory.java" />
     </list>
     <ignored path="Algorytmy.iws" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="AlgorithmFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="302">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -49,37 +46,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestujemyKopiec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Alghoritms/TestujemyKopiec.java">
+      <file leaf-file-name="BinarnyIIinne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Alghoritms/BinarnyIIinne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kopiec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Alghoritms/Kopiec.java">
+      <file leaf-file-name="OdwrotnaNotacjaPolska.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Alghoritms/OdwrotnaNotacjaPolska.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarnyIIinne.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Alghoritms/BinarnyIIinne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/Alghoritms/Binarny.java" />
         <option value="$PROJECT_DIR$/src/Alghoritms/BinarnyIIinne.java" />
         <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
+        <option value="$PROJECT_DIR$/src/Alghoritms/OdwrotnaNotacjaPolska.java" />
       </list>
     </option>
   </component>
@@ -248,7 +236,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="binarnyiinne 16 255" />
+      <option name="PROGRAM_PARAMETERS" value="odwrotnanotacjapolska 3 5 2 * + +" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -716,12 +704,12 @@
       <workItem from="1501515449662" duration="11317000" />
       <workItem from="1501601674909" duration="10004000" />
       <workItem from="1501687667719" duration="7011000" />
-      <workItem from="1501774464041" duration="7942000" />
+      <workItem from="1501774464041" duration="10091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36274000" />
+    <option name="totallyTimeSpent" value="38423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -901,14 +889,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Eksperymenty.java" />
-    <entry file="file://$PROJECT_DIR$/src/Alghoritms/AbstractAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Alghoritms/mRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -1006,14 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alghoritms/DrzewoKompletne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JulianIKornel/day12/DateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
@@ -1054,6 +1026,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Alghoritms/AbstractAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Alghoritms/TestujemyKopiec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -1073,21 +1061,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Alghoritms/DrzewoKompletne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="578">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Alghoritms/BinarnyIIinne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="185">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Alghoritms/OdwrotnaNotacjaPolska.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>

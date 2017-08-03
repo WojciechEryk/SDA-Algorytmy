@@ -66,6 +66,8 @@ public class AlgorithmFactory {
                 return new TestujemyKopiec();
             case "binarnyiinne":
                 return new BinarnyIIinne();
+            case "odwrotnanotacjapolska":
+                return new OdwrotnaNotacjaPolska();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

@@ -68,6 +68,14 @@ public class AlgorithmFactory {
                 return new BinarnyIIinne();
             case "odwrotnanotacjapolska":
                 return new OdwrotnaNotacjaPolska();
+            case "zmienneitablice":
+                return new ZmienneITablice();
+            case "arraylistazadanie":
+                return new ArrayListZadanko();
+            case "wlasnalista":
+                return new WlasnaLista();
+            case "stosarraylist":
+                return new StosArrayList();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

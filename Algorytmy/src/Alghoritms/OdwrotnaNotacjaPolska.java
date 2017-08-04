@@ -16,6 +16,7 @@ public class OdwrotnaNotacjaPolska extends AbstractAlgorithm {
 
         int a = 0;
         int b = 0;
+        int wynik =0;
 
         for (int i = 1; i <input.length; i++) {
 
@@ -23,8 +24,38 @@ public class OdwrotnaNotacjaPolska extends AbstractAlgorithm {
                 case "+":
                 a = stosik2.pop();
                 b = stosik2.pop();
-                    System.out.println("Działanie nr " + i + "." + "A + B = " + a+b);
+                    wynik = a+b;
+                    System.out.println("Działanie dodawanie A + B = " + wynik);
+                    stosik2.push(wynik);
+                    break;
+                case "-":
+                a = stosik2.pop();
+                b = stosik2.pop();
+                    wynik = a-b;
+                    System.out.println("Działanie odejmowanie A + B = " + wynik);
+                    stosik2.push(wynik);
+                    break;
+                case "/":
+                a = stosik2.pop();
+                b = stosik2.pop();
+                    wynik = a/b;
+                    System.out.println("Działanie dzielenie A + B = " + wynik);
+                    stosik2.push(wynik);
+                    break;
+                case "m":
+                a = stosik2.pop();
+                b = stosik2.pop();
+                    wynik = a*b;
+                    System.out.println("Działanie mnozenie A + B = " + wynik);
+                    stosik2.push(wynik);
+                    break;
 
+                case "=":
+                    System.out.println();
+                    System.out.println("---------------------------------------");
+                    System.out.println();
+                    System.out.println("Nasz ostateczny wynik to: " +stosik2.pop());
+                    break;
 
 
                 default:

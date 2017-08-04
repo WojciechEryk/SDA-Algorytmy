@@ -54,8 +54,8 @@ public class AlgorithmFactory {
                 return new mRandom();
             case "maxminrandom":
                 return new MaxMinTablica();
-//            case "lider":
-//                return new Lider();
+            case "lider":
+                return new Lider();
             case "testowanielisty":
                 return new TestowanieListy();
             case "zadankotworzenielisty":

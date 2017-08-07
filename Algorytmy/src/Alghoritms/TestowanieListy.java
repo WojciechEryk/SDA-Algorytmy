@@ -13,8 +13,13 @@ public class TestowanieListy extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         mList lista = new mList();
         lista.addElementAtBeginning(14, lista);
+        lista.addElementAtBeginning(5, lista);
+        lista.addElementAtBeginning(76, lista);
+        lista.addElementAtBeginning(14, lista);
         lista.addElementAtBeginning(25, lista);
         lista.addElementBefore(45, 14, lista);
+        lista.deleteElement(14, lista);
+        lista.deleteElement(14, lista);
         lista.printAllElements(lista);
 
     }

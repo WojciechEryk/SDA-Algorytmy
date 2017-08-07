@@ -76,12 +76,12 @@ public class mList {
         System.out.println(_tail.data);
     }
 
-    public void addElementBefore (int elementToAdd, int elementBefore, mList list){
-        Element before = list.getElementForward(elementBefore,list);
+    public void addElementBefore (int elementToAdd, int elementBefore, mList list) {
+        Element before = list.getElementForward(elementBefore, list);
 
-        if(before == list._head){
+        if (before == list._head) {
             list.addElementAtBeginning(elementToAdd, list);
-        }else{
+        } else {
             Element p = new Element();
             p.data = elementToAdd;
             p.prev = before.prev;
@@ -91,8 +91,31 @@ public class mList {
             before.prev = p;
             list.counter++;
         }
+    }
 
-    }public void addElementAfter (int elementToAdd, int elementAfter, mList list){
+        public void deleteElement (int elementToDelate, mList list){
+
+            Element toDelate = list.getElementForward(elementToDelate, list);
+            list.counter --;
+
+            if (toDelate.prev != null){
+                Element prevOfDelate = toDelate.prev;
+                prevOfDelate.next = toDelate.next;
+
+            }else{
+                list._head = toDelate.next;
+            }
+            if (toDelate.next != null) {
+                Element nextOfDelete = toDelate.next;
+                nextOfDelete.prev = toDelate.prev;
+            }else{
+                list._tail = toDelate.prev;
+            }
+            toDelate = null;
+    }
+
+
+    public void addElementAfter (int elementToAdd, int elementAfter, mList list){
         Element after = list.getElementForward(elementAfter,list);
 
         if(after == list._tail){
@@ -108,10 +131,7 @@ public class mList {
             list.counter++;
         }
     }
-    public void RemoveElement (int removeElement, mList list){
-        list.counter --;
 
-    }
 
 
 }

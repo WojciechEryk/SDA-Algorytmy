@@ -76,6 +76,8 @@ public class AlgorithmFactory {
                 return new WlasnaLista();
             case "stosarraylist":
                 return new StosArrayList();
+            case "odwrotnanotacja2":
+                return new OdwrotnaNotacja2();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

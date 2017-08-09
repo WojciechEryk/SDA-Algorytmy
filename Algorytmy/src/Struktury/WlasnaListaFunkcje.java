@@ -3,39 +3,36 @@ package Struktury;
 
 import Alghoritms.WlasnaLista;
 
-public class WlasnaListaFunkcje {
+public class WlasnaListaFunkcje{
 
-    WlasnaListaElement glowa;
-    int counter = 0;
+    int counter;
+    Element head;
 
-
-    public void DodajElementNaPoczatku(int newElement, WlasnaListaFunkcje list) {
-        WlasnaListaElement obiekt = new WlasnaListaElement();
-        obiekt.data = newElement;
-        obiekt.nastepny = list.glowa;
-        list.glowa = obiekt;
-        list.counter++;
-    }
-
-    public WlasnaListaElement znajdzOstatniElement()
-    {
-        WlasnaListaElement iterator;
-        iterator = glowa;
-        while(iterator.nastepny != null){
-            iterator=iterator.nastepny;
+    public void przejdzPrzezListe(WlasnaLista list){
+        Element p = new Element();
+        p = head;
+        while(p.next!=null){
+            p = p.next;
         }
-        return iterator;
-    }
-    public void DodajElementNaKoncu(int newElement) {
-        WlasnaListaElement obiekt = new WlasnaListaElement();
-        obiekt.data = newElement;
-        WlasnaListaElement ostatni = znajdzOstatniElement();
-        ostatni.nastepny = obiekt;
     }
 
-//    public void dodajElementZa(int elementPrzed, int elementPo, WlasnaListaFunkcje list) {
-//        WlasnaListaElement Po;
-//
-//
-//    }
+    public void dodajNaPoczatku(int newElement, WlasnaLista list){
+        Element p = new Element();
+        p.data = newElement;
+
+        p.next = head;
+        head = p;
+        counter++;
+    }
+
+    public void dodajNaKoncu(int newElement, WlasnaLista list){
+        Element p = new Element();
+        p.data = newElement;
+
+        p.next = null;
+
+        counter++;
+    }
+
 }
+

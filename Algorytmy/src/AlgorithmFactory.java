@@ -80,6 +80,8 @@ public class AlgorithmFactory {
                 return new OdwrotnaNotacja2();
             case "sitoerastotelesa":
                 return new SitoErastotelesa();
+            case "najmniejszawspolnawielokrotnosc":
+                return new NajmniejszaWspolnaWielokrotnosc();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

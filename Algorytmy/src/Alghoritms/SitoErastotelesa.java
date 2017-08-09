@@ -18,12 +18,6 @@ public class SitoErastotelesa extends  AbstractAlgorithm {
 
     }
 
-    public SitoErastotelesa(int n) {
-        this.n = n;
-        this.tablica = new boolean[n];
-
-    }
-
     @Override
     public void runAlgorithm(String[] input) {
         tablica = new boolean[Integer.parseInt(input[1])];

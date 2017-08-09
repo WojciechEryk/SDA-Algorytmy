@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b85a235-850b-4ce6-9cc1-ef9715998693" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Alghoritms/NajmniejszaWspolnaWielokrotnosc.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Struktury/WlasnaListaElement.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Alghoritms/SitoErastotelesa.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Alghoritms/SitoErastotelesa.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Alghoritms/SitoErastotelesa.java" afterPath="$PROJECT_DIR$/src/Alghoritms/SitoErastotelesa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/AlgorithmFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java" afterPath="$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java" />
     </list>
     <ignored path="Algorytmy.iws" />
@@ -53,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Struktury/mList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="89" column="27" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="27" />
+            <state relative-caret-position="168">
+              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -66,8 +61,8 @@
       <file leaf-file-name="WlasnaListaFunkcje.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="302">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -83,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NajmniejszaWspolnaWielokrotnosc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NajmniejszaWspolnaWielokrotnosc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Alghoritms/NajmniejszaWspolnaWielokrotnosc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
@@ -142,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/Alghoritms/OdwrotnaNotacja2.java" />
         <option value="$PROJECT_DIR$/src/Alghoritms/SitoErastotelesa.java" />
         <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
-        <option value="$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java" />
         <option value="$PROJECT_DIR$/src/Alghoritms/NajmniejszaWspolnaWielokrotnosc.java" />
+        <option value="$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java" />
       </list>
     </option>
   </component>
@@ -744,12 +739,12 @@
       <workItem from="1502207012342" duration="17000" />
       <workItem from="1502208103183" duration="35000" />
       <workItem from="1502216135842" duration="2652000" />
-      <workItem from="1502293030155" duration="7589000" />
+      <workItem from="1502293030155" duration="10561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67757000" />
+    <option name="totallyTimeSpent" value="70729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1202,19 +1197,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Struktury/mList.java">
+    <entry file="file://$PROJECT_DIR$/src/Alghoritms/NajmniejszaWspolnaWielokrotnosc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="89" column="27" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,14 +1216,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alghoritms/NajmniejszaWspolnaWielokrotnosc.java">
+    <entry file="file://$PROJECT_DIR$/src/Struktury/WlasnaListaFunkcje.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="302">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Struktury/mList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

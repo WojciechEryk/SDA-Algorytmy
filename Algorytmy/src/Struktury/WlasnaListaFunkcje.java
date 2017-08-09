@@ -8,12 +8,13 @@ public class WlasnaListaFunkcje{
     int counter;
     Element head;
 
-    public void przejdzPrzezListe(WlasnaLista list){
+    public Element dajOstatni(WlasnaLista list){
         Element p = new Element();
         p = head;
         while(p.next!=null){
             p = p.next;
         }
+        return p;
     }
 
     public void dodajNaPoczatku(int newElement, WlasnaLista list){
@@ -26,9 +27,11 @@ public class WlasnaListaFunkcje{
     }
 
     public void dodajNaKoncu(int newElement, WlasnaLista list){
+        Element h = dajOstatni(list);
         Element p = new Element();
-        p.data = newElement;
 
+        h.next = p;
+        p.data = newElement;
         p.next = null;
 
         counter++;

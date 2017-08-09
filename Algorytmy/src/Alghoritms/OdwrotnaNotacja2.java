@@ -35,9 +35,9 @@ public class OdwrotnaNotacja2 extends AbstractAlgorithm {
 
                     if(stack.size()!=0) {
                         if (!stack.peek().equals("+")){
+                            System.out.print(stack.pop()+" ");
                             stack.push(input[i]);
                         }else{
-                            System.out.print(stack.pop());
                             stack.push(input[i]);
                         }
                     }else{stack.push(input[i]);

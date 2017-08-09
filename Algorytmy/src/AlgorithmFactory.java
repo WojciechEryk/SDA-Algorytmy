@@ -78,6 +78,8 @@ public class AlgorithmFactory {
                 return new StosArrayList();
             case "odwrotnanotacja2":
                 return new OdwrotnaNotacja2();
+            case "sitoerastotelesa":
+                return new SitoErastotelesa();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

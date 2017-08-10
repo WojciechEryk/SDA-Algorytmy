@@ -3,19 +3,20 @@ public class FizzBuzz {
     public String [] fizzBuzz(int n) {
         String[] result = new String[n];
         for (int i = 0; i < n; i++) {
-            transformElement(result, i);
+            result[i] = getStringRepresantation(i);
         }
             return result;
     }
 
 
-    private void transformElement(String[] result, int i){
-
-            if ((i+1)%3==0){
-                result[i] = "Fizz";}
-            else if((i+1)%5==0){
-                result[i] = "Buzz";}
+    private String getStringRepresantation(int elementIndex){
+            if((elementIndex+1)%15==0){
+                return "FizzBuzz";}
+            if((elementIndex+1)%3==0){
+                return  "Fizz";}
+            if((elementIndex+1)%5==0){
+                return "Buzz";}
             else {
-                result[i] = i + 1 + "";}
+                return elementIndex + 1 + "";}
     }
 }

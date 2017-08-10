@@ -2,17 +2,17 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class CalculatorTest {
-    @Test
-    public void onePlusOneShouldEqualsTwo(){
-        Calculator calculator = new Calculator();
-        Assert.assertEquals(2, calculator.sum(1,1));
-    }
-
-    @Test
-    public void oneMultiplyOneShouldEqualsTwo(){
-        Calculator calculator2 = new Calculator();
-        Assert.assertEquals(1, calculator2.multiply(1,1));
-    }
+//    @Test
+//    public void onePlusOneShouldEqualsTwo(){
+//        Calculator calculator = new Calculator();
+//        Assert.assertEquals(2, calculator.sum(1,1));
+//    }
+//
+//    @Test
+//    public void oneMultiplyOneShouldEqualsTwo(){
+//        Calculator calculator2 = new Calculator();
+//        Assert.assertEquals(1, calculator2.multiply(1,1));
+//    }
 
     FizzBuzz testObject = new FizzBuzz();
 
@@ -42,4 +42,20 @@ public class CalculatorTest {
         Assert.assertArrayEquals(new String[]{"1", "2", "Fizz", "4", "Buzz"}, testObject.fizzBuzz(5));
     }
 
+    @Test
+    public void shouldReturnArrayWith2FizzAnd1Buzz(){
+        Assert.assertArrayEquals(new String[]{"1", "2", "Fizz", "4", "Buzz", "Fizz"},
+                testObject.fizzBuzz(6));
+    }
+    @Test
+    public void shouldReturnArrayWith2FizzAnd2Buzz(){
+        Assert.assertArrayEquals(new String[]{"1", "2", "Fizz", "4", "Buzz", "Fizz", "7","8","Fizz","Buzz"}
+                , testObject.fizzBuzz(10));
+    }
+    @Test
+    public void shouldReturnArrayWith4FizzAnd3Buzz() {
+        Assert.assertArrayEquals(new String[]{"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz",
+                "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"}, testObject.fizzBuzz(15));
+
+    }
 }
